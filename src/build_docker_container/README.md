@@ -1,10 +1,19 @@
 # hail-jp trial / Docker container
 
+## Build
 to build Docker container for trial , run the command following.
-
+- for x86_64
 ```
+cd docker
 docker build -t hail-jp-trial .
 ```
+- for arm64 ( If you want to use m1 mac , use this one)
+```
+cd docker_for_m1
+docker build -t hail-jp-trial .
+```
+
+
 
 ## What are included ?
 This container includes ,  
