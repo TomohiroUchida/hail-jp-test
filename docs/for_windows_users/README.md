@@ -31,21 +31,21 @@ It include the simplest way.
 
 https://youtu.be/QaIaSAqTqFo
 
-- Next: After get Ubuntu 20.04LTS on your Windows PC by WSL2
--- Install java8 , pip3
+- Next: After get Ubuntu 20.04LTS on your Windows PC by WSL2 
+ - Install java8 , pip3
 
 ```
 sudo apt update
 sudo apt install default-jre
 sudo apt install python3-pip
 ```
--- Install hail and jupyterlab
+ - Install hail and jupyterlab
 ```
 pip3 install hail
 pip3 install jupyterlab
 ```
 
--- Get tutorials from hail docs
+ - Get tutorials from hail docs
 ```
 cd
 
@@ -57,7 +57,7 @@ tar xvf tutorials.tar.gz
 # Caution! the file is not gzipped , so we should run tar with 'xvf'
 ```
 
--- Run the Jupyter lab 
+ - Run the Jupyter lab 
 ```
 re-login to WSL
 
@@ -65,7 +65,7 @@ cd
 jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''
 ```````
 
--- Access to Jupyter lab  
+ - Access to Jupyter lab  
 
 enter the URL on your browser address bar
 ```
