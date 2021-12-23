@@ -38,11 +38,15 @@ sudo -i systemctl start  jupyterhub.service
 
 sudo -i yum install -y java-1.8.0-openjdk java-1.8.0-openjdk-devel
 sudo -i yum install -y gcc
-sudo -i yum -y install https://vault.centos.org/6.10/os/x86_64/Packages/atlas-3.8.4-2.el6.x86_64.rpm
-sudo -i yum -y install https://vault.centos.org/6.10/os/x86_64/Packages/atlas-devel-3.8.4-2.el6.x86_64.rpm
 
+##
+#sudo -i yum -y install https://vault.centos.org/6.10/os/x86_64/Packages/atlas-3.8.4-2.el6.x86_64.rpm
+#sudo -i yum -y install https://vault.centos.org/6.10/os/x86_64/Packages/atlas-devel-3.8.4-2.el6.x86_64.rpm
+## or it might be OK
+sudo -i conda install -y blas
+##
 
-sudo -i  yum install -y lapack-devel lapack openblas-devel openblas-devel
+#sudo -i  yum install -y lapack-devel lapack openblas-devel openblas-devel
 sudo -i conda install -y rust 
 sudo -i pip install hail
 
