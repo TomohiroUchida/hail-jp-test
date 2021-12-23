@@ -13,5 +13,6 @@ It include the simplest way.
 
 https://youtu.be/yQdmN7H9KBg
 
-- Run the docker container and access jupyter-lab [../for_docker_users/README.md](../for_docker_users/README.md)  
+- Run the docker container and access jupyter-lab   
+[../for_docker_users/README.md](Running Hail on Docker container)    
 Enjoy! 

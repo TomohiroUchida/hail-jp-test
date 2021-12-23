@@ -7,7 +7,7 @@ This container includes ,
 - hail tutorials
 
 ## To run the container
-### x86_64 
+### for x86_64 
 ```
 docker run -it -p 8888:8888 utut/hail-jp-trial:latest
 ```
