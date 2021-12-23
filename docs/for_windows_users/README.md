@@ -14,5 +14,9 @@ It include the simplest way.
 https://youtu.be/yQdmN7H9KBg
 
 - Run the docker container and access jupyter-lab   
+After working Docker desktop , you can run the 'hail-jp trial container'.
+Prease reade the docs below.
 [Running Hail on Docker container](../for_docker_users/README.md) 
+
+
 Enjoy! 
