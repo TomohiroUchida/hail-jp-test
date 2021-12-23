@@ -5,4 +5,13 @@ Otherwise you will fail because of using C: based file access.
 
 !! Note that, You might need a additional subsucription for using docker desktop. Please check the licenses.
 
+## Trying Hail using Dokcer container
+- Install Docker Desktop on your windows PC  
+There are many information all over the world to install Docker Desktop.  
+I provided "Installing Docker Desktop on clean installed win10Pro" video as below youtube movie.  
+It include the simplest way.  
 
+https://youtu.be/yQdmN7H9KBg
+
+- Run the docker container and access jupyter-lab [../for_docker_users/README.md](../for_docker_users/README.md)  
+Enjoy! 

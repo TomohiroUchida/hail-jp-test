@@ -7,12 +7,22 @@ This container includes ,
 - hail tutorials
 
 ## To run the container
+### x86_64 
 ```
 docker run -it -p 8888:8888 utut/hail-jp-trial:latest
 ```
 or if you want to access the Spark UI , 
 ```
 docker run -it -p 8888:8888 -p 4040:4040 utut/hail-jp-trial:latest
+```
+
+### for arm64 ( If you want to use m1 mac , use this one)
+```
+docker run -it -p 8888:8888 utut/hail-jp-trial-m1:latest
+```
+or if you want to access the Spark UI ,
+```
+docker run -it -p 8888:8888 -p 4040:4040 utut/hail-jp-trial-m1:latest
 ```
 
 ## Access jupyter-lab from your browser !!
