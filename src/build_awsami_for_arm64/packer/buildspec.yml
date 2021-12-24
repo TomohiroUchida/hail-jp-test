@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - CODEBUILD_PROJECT_NAME=$(echo $CODEBUILD_BUILD_ID | cut -d ':' -f 1)
+      - apk add curl bash git
+      - curl -O https://releases.hashicorp.com/packer/1.7.8/packer_1.7.8_linux_arm64.zip
+      - unzip packer_1.7.8_linux_arm64.zip
+      - mv packer /usr/bin/
+      - chmod 700 build-wrapper.sh scripts/*
+
+  build:
+    commands:
+      - ./build-wrapper.sh
