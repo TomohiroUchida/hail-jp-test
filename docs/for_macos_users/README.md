@@ -28,7 +28,7 @@ And we can install them using downloaded package or via package manager such as 
 
 The example below is one of the simple way to show you. 
 
-- java8:  install adoptopenjdk8 using homebrew
+- java8:  install zulu8 using homebrew
 - python environment: install python-3.9.7 using miniforge
 - hail / jupyter-lab : install using python pip
 
@@ -37,7 +37,7 @@ The example below is one of the simple way to show you.
 - java8
 
 ```
-% brew install adoptopenjdk/openjdk/adoptopenjdk8 --cask
+% brew install homebrew/cask-versions/zulu8
 ```
 - miniforge and python
 ```
@@ -58,10 +58,10 @@ But this way ,   you that you can install and running Hail tutorials.
 
 ### How to build Hail environment on M1 Mac
 - java8  
-Download proper package from the link below and install it.  
-  
-https://www.azul.com/downloads/?version=java-8-lts&os=macos&architecture=arm-64-bit&package=jdk
 
+```
+% brew install homebrew/cask-versions/zulu8
+```
 - miniforge
 ```
 % curl https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh -OL
