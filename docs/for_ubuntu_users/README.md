@@ -79,8 +79,13 @@ OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
 
 ##execute bash / or re-login
 
-% conda install -y openjdk=8.0.312
-% conda install -y gcc=9.4 gxx=9.4
+% conda install -y openjdk=8.0.312 gcc=9.4 gxx=9.4
+% python3 --version
+Python 3.9.7
+% java -version
+openjdk version "1.8.0_312"
+OpenJDK Runtime Environment (Zulu 8.58.0.13-CA-linux_aarch64) (build 1.8.0_312-b07)
+OpenJDK 64-Bit Server VM (Zulu 8.58.0.13-CA-linux_aarch64) (build 25.312-b07, mixed mode)
 ## Because Hail call old pandas==1.1.4 , the newest compiler can't build it.
 
 % pip3 install hail
