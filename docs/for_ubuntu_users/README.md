@@ -6,9 +6,13 @@
 ### If you can use sudo 
 ```
 % sudo apt update -y
-% sudo apt install python3-pip default-jre wget -y 
+% sudo apt install python3-pip openjdk-8-jre-headless wget -y 
 % python3 --version
 Python 3.8.10
+% java -version
+openjdk version "1.8.0_312"
+OpenJDK Runtime Environment (build 1.8.0_312-8u312-b07-0ubuntu1~20.04-b07)
+OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
 % sudo  pip3 install hail jupyterlab
 % wget https://hail.is/docs/0.2/tutorials.tar.gz
 % tar xvf tutorials.tar.gz
