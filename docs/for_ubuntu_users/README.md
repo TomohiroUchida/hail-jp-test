@@ -52,8 +52,12 @@ OpenJDK 64-Bit Server VM (Zulu 8.58.0.13-CA-linux64) (build 25.312-b07, mixed mo
 ## for arm64
 ### If you can use sudo
 ```
-% sudo apt install -y default-jre gcc
-% sudo apt install -y g++
+% sudo apt update -y
+% sudo apt install -y openjdk-8-jre-headless  gcc g++
+% java -version
+openjdk version "1.8.0_312"
+OpenJDK Runtime Environment (build 1.8.0_312-8u312-b07-0ubuntu1~20.04-b07)
+OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
 
 % wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh
 % sudo  bash Miniforge3-Linux-aarch64.sh 
