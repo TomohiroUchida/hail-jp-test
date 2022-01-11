@@ -32,8 +32,13 @@ OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
 (base) ~$ python --version
 Python 3.9.7
 
-(base) ~$ conda install openjdk==8.0.144
-(base) ~$  pip3 install hail jupyterlab
+(base) ~$ conda install openjdk==8.0.312
+(base) ~$ java -version
+openjdk version "1.8.0_312"
+OpenJDK Runtime Environment (Zulu 8.58.0.13-CA-linux64) (build 1.8.0_312-b07)
+OpenJDK 64-Bit Server VM (Zulu 8.58.0.13-CA-linux64) (build 25.312-b07, mixed mode)
+
+(base) ~$ pip3 install hail jupyterlab
 
 (base) ~$ wget https://hail.is/docs/0.2/tutorials.tar.gz
 
