@@ -70,7 +70,6 @@ But this way ,   you that you can install and running Hail tutorials.
 
 - python , hail and jupyter lab  
 ```
-% conda install python==3.9.9 ##この手順はいらないかも
 % pip3 install hail jupyterlab
 ```
 
