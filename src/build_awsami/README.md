@@ -8,7 +8,7 @@ cd packer
 
 You will see the new AMI on your EC2 dashbord.  
 Run it with proper setting.  
-You should pass the arival port 8000 for jupyter lab.
+You should pass the arival port 8000 for jupyter hub.
 
 
 ## What are included ?
