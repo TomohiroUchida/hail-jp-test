@@ -36,8 +36,9 @@ https://youtu.be/QaIaSAqTqFo
 
 ```
 sudo apt update
-sudo apt install default-jre
+sudo apt install openjdk-8-jre-headless
 sudo apt install python3-pip
+sudo apt install wget
 ```
  - Install hail and jupyterlab
 ```
