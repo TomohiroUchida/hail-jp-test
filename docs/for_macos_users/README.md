@@ -34,6 +34,9 @@ The example below is one of the simple way to show you.
 
 ### How to build Hail environment on Intel Mac
 - homebrew
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 - java8
 
 ```
