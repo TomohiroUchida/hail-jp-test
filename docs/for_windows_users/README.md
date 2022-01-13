@@ -23,7 +23,7 @@ Prease reade the docs below.
 Enjoy! 
 
 ## Trying Hail using WSL2(Windows subsystem for Linux 2)  
-### Install Docker Desktop on your windows PC
+### Install WSL2 on your windows PC
 There are also many information all over the world to install WSL2.  
 Basically installing WSL2 is very easy.  
 I provided "Installing Windows Subsystem for Linux on clean win10Pro" video as below youtube movie.
