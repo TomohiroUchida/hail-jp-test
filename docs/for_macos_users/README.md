@@ -60,6 +60,10 @@ M1 mac is quite a new environment ,so it is a little dificult to do it.
 But this way ,   you that you can install and running Hail tutorials.
 
 ### How to build Hail environment on M1 Mac
+- homebrew
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 - java8  
 
 ```
