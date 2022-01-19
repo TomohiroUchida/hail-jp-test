@@ -42,8 +42,8 @@ sudo apt install wget
 ```
  - Install hail and jupyterlab
 ```
-pip3 install hail
-pip3 install jupyterlab
+sudo pip3 install hail
+sudo pip3 install jupyterlab
 ```
 
  - Get tutorials from hail docs
@@ -60,9 +60,6 @@ tar xvf tutorials.tar.gz
 
  - Run the Jupyter lab 
 ```
-re-login to WSL
-
-cd
 jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''
 ```````
 
