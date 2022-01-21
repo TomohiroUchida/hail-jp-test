@@ -36,14 +36,11 @@ https://youtu.be/QaIaSAqTqFo
 
 ```
 sudo apt update
-sudo apt install openjdk-8-jre-headless
-sudo apt install python3-pip
-sudo apt install wget
+sudo apt install openjdk-8-jre-headless python3-pip
 ```
  - Install hail and jupyterlab
 ```
-sudo pip3 install hail
-sudo pip3 install jupyterlab
+sudo pip3 install hail jupyterlab
 ```
 
  - Get tutorials from hail docs
