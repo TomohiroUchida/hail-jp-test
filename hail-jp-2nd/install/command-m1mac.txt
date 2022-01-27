@@ -1,0 +1,16 @@
+https://github.com/TomohiroUchida/hail-jp-trial/tree/main/docs/for_macos_users
+
+
+# miniforge curl https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh -OL
+bash Miniforge3-MacOSX-arm64.sh 
+(terminalを開き直すなどしてconda環境を有効にしてから)
+# hail and jupyterlab pip3 install hail jupyterlab
+
+# jupyterlabの起動
+jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''
+
+
+
+docker run -it -p 8888:8888 -p 4040:4040 utut/hail-jp-trial-m1:latest 
+（ -p 8888:8888はjupyterlabのポートを転送, -p 4040:4040はSparkUIのポートを転送しています)   utut/hail-jp-trial-m1:latestは今回のために作った最小限のhail環境です
+

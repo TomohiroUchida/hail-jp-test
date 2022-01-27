@@ -1,0 +1,11 @@
+# Powershell上で、以下を実行し、WSL上のUbuntuを起動
+Ubuntu
+またはUbuntu2004
+
+#Ubuntu上で, 
+## update sudo apt update  
+## javaとpip3をインストール sudo apt install openjdk-8-jre-headless python3-pip  ## hailとjupyterlabをインストール sudo pip3 install hail jupyterlab 
+## pythonとjavaのバージョン確認 python --version
+java -version 
+## 動作確認 jupyterlabの起動
+jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''  # Windowsのブラウザで http://localhost:8888 を開く
