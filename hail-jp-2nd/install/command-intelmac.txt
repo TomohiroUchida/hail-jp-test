@@ -10,15 +10,38 @@ bash Miniforge3-MacOSX-x86_64.sh
 
 pip3 install hail jupyterlab
 
-# jupyterlabの起動
+# 動作確認 jupyterlabの起動
 
 jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''
 
+# macのブラウザで
 
+http://localhost:8888 を開きます
 
-docker run -it -p 8888:8888 -p 4040:4040 utut/hail-jp-trial:latest
+# Jupyter上で、
+
+import hail as hl
+
+hl.init()
+
+--------------
+# docker desktopを使用する場合
+docker run -it -p 8888:8888 -p 4040:4040 utut/hail-jp-trial-m1:latest
 
  # -p 8888:8888はjupyterlabのポートを転送
  # -p 4040:4040はSparkUIのポートを転送しています
  # utut/hail-jp-trial-m1:latestは今回のために作った最小限のhail環境です
 
+# 動作確認 jupyterlabの起動
+
+jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''
+
+# macのブラウザで
+
+http://localhost:8888 を開きます
+
+# Jupyter上で、
+
+import hail as hl
+
+hl.init()
