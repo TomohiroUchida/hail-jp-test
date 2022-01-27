@@ -1,11 +1,59 @@
 # Powershell上で、以下を実行し、WSL上のUbuntuを起動
-Ubuntu
-またはUbuntu2004
 
-#Ubuntu上で, 
-## update sudo apt update  
-## javaとpip3をインストール sudo apt install openjdk-8-jre-headless python3-pip  ## hailとjupyterlabをインストール sudo pip3 install hail jupyterlab 
-## pythonとjavaのバージョン確認 python --version
-java -version 
+UbuntuまたはUbuntu2004を実行
+
+# Ubuntu上で
+
+## update
+
+sudo apt update 
+
+## javaとpip3をインストール
+
+sudo apt install openjdk-8-jre-headless python3-pip
+
+## pythonとjavaのバージョン確認
+
+python --version
+
+java -version
+
+
+## hailとjupyterlabをインストール
+
+sudo pip3 install hail jupyterlab
+
+
 ## 動作確認 jupyterlabの起動
-jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''  # Windowsのブラウザで http://localhost:8888 を開く
+
+jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''
+
+## Windowsのブラウザで
+
+http://localhost:8888 を開きます
+
+## Jupyter上で、
+
+import hail as hl
+
+hl.init()
+
+-------------------------
+
+# Docker Desktopを使用する場合
+
+docker run -it -p 8888:8888 -p 4040:4040 utut/hail-jp-trail:latest 
+
+## 動作確認 jupyterlabの起動
+
+jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''
+
+## Windowsのブラウザで
+
+http://localhost:8888 を開きます
+
+## Jupyter上で、
+
+import hail as hl
+
+hl.init()
