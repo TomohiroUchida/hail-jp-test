@@ -10,10 +10,6 @@ bash Miniforge3-MacOSX-arm64.sh
 
 pip3 install hail jupyterlab
 
-# jupyterlabの起動
-
-jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''
-
 # 動作確認 jupyterlabの起動
 
 jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''
