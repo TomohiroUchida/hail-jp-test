@@ -26,7 +26,7 @@ hl.init()
 
 --------------
 # docker desktopを使用する場合
-docker run -it -p 8888:8888 -p 4040:4040 utut/hail-jp-trial-m1:latest
+docker run -it -p 8888:8888 -p 4040:4040 utut/hail-jp-trial:latest
 
  # -p 8888:8888はjupyterlabのポートを転送
  # -p 4040:4040はSparkUIのポートを転送しています
