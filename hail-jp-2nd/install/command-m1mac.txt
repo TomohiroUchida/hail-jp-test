@@ -1,6 +1,3 @@
-https://github.com/TomohiroUchida/hail-jp-trial/tree/main/docs/for_macos_users
-
-
 # install miniforge
 
 curl https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh -OL
