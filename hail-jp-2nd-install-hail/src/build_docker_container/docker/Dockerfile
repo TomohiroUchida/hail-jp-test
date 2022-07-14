@@ -19,7 +19,7 @@ RUN ["mkdir", "notebooks"]
 
 RUN wget https://hail.is/docs/0.2/tutorials.tar.gz && \
     tar xf tutorials.tar.gz && \
-    mv tutorials /notebooks/ && \
+    mv _build/html/tutorials /notebooks/ && \
     rm tutorials.tar.gz
 
 RUN apt remove -y wget
