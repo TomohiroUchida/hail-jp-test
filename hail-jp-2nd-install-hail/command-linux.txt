@@ -4,18 +4,18 @@ bash Miniforge3-Linux-x86_64.sh  
 (ライセンスに同意し、インストール先もそのままEnter。initするかどうかもy)
 source ~/.bashrc
 
-# pythonのバージョン確認 (3.9.7と返ってくるはず)
+# pythonのバージョン確認 
 python --version
 
 # javaをインストール
-conda install openjdk==8.0.312
+conda install openjdk
 
-# javaのバージョン確認  (azulu zuluのjava8 release 312であることが確認できるはず)
+# javaのバージョン確認 
 java -version
 
 # hailとjupyterlabをインストール
-pip3 install hail jupyterlab 
+pip3 install hail jupyterlab
 
 # 動作確認 jupyterlabの起動 
-jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''  
+jupyter-lab --ip=0.0.0.0 --no-browser --NotebookApp.token=''
 # ブラウザで http://「LinuxマシンのIPアドレス」:8888 を開く
