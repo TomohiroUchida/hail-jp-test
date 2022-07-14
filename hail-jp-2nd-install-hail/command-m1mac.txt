@@ -6,6 +6,9 @@ bash Miniforge3-MacOSX-arm64.sh
 
 (terminalを開き直すなどしてconda環境を有効にしてから)
 
+# install java
+conda install openjdk
+
 # install hail and jupyterlab
 
 pip3 install hail jupyterlab
