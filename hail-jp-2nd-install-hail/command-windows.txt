@@ -14,7 +14,7 @@ sudo apt install openjdk-8-jre-headless python3-pip
 
 ## pythonとjavaのバージョン確認
 
-python --version
+python3 --version
 
 java -version
 
