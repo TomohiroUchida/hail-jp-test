@@ -10,7 +10,7 @@ sudo apt update
 
 ## javaとpip3をインストール
 
-sudo apt install openjdk-8-jre-headless python3-pip
+sudo apt install openjdk-11-jre-headless python3-pip
 
 ## pythonとjavaのバージョン確認
 
